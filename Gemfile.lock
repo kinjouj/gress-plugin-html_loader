@@ -1,0 +1,85 @@
+GIT
+  remote: https://github.com/kinjouj/gress-core.git
+  revision: a97300667df82e51cbca8365cd54d1dd7eb455bd
+  specs:
+    gress (1.0.0)
+
+GIT
+  remote: https://github.com/kinjouj/gress-markdown.git
+  revision: 4e3cceb5b8fb991b75843dec0dad345fb76ff532
+  specs:
+    gress-markdown (0.0.1)
+
+GIT
+  remote: https://github.com/kinjouj/ruby-jsonable.git
+  revision: 0204ba072fce931cfe777c78e044d96eb7b04b25
+  specs:
+    jsonable (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cgi (0.5.0)
+    date (3.4.1)
+    diff-lcs (1.6.2)
+    docile (1.4.1)
+    erb (4.0.4)
+      cgi (>= 0.3.3)
+    io-console (0.8.0)
+    irb (1.15.2)
+      pp (>= 0.6.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
+    psych (5.2.6)
+      date
+      stringio
+    rake (13.3.0)
+    rdoc (6.14.0)
+      erb
+      psych (>= 4.0.0)
+    redcarpet (3.6.1)
+    reline (0.6.1)
+      io-console (~> 0.5)
+    rspec (3.13.1)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.4)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.4)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.13.1)
+    simplecov-tailwindcss (2.2.0)
+      simplecov (~> 0.16)
+    simplecov_json_formatter (0.1.4)
+    stringio (3.1.7)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  gress!
+  gress-markdown!
+  irb
+  jsonable!
+  rake (~> 13.0)
+  redcarpet
+  rspec
+  simplecov
+  simplecov-tailwindcss
+
+BUNDLED WITH
+   2.6.9

@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "irb"
+gem "rake", "~> 13.0"
+gem "redcarpet"
+gem "jsonable", github: "kinjouj/ruby-jsonable"
+gem "gress-markdown", github: "kinjouj/gress-markdown"
+gem "gress", github: "kinjouj/gress-core"
+
+group :test do
+  gem "rspec"
+  gem "simplecov", require: false
+  gem "simplecov-tailwindcss", require: false
+end
