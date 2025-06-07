@@ -4,7 +4,6 @@ source "https://rubygems.org"
 
 gem "irb"
 gem "rake", "~> 13.0"
-gem "redcarpet"
 gem "jsonable", github: "kinjouj/ruby-jsonable"
 gem "gress-markdown", github: "kinjouj/gress-markdown"
 gem "gress", github: "kinjouj/gress-core"

@@ -5,7 +5,7 @@ describe Gress::Plugin::HtmlLoader do
   it "test" do
     allow(Dir).to receive(:glob) { ["test.html"] }
     allow(File).to receive(:read) { "test" }
-    Gress::Plugin::HtmlLoader.new(nil, nil, nil).run
+    Gress::Plugin::HtmlLoader.new.run
 
     params = Gress::Context.params
     expect(params).not_to be_nil
