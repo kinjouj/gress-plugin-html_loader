@@ -3,7 +3,7 @@
 module Gress
   module Plugin
     class HtmlLoader < Gress::Plugin::Preprocessor
-      def run
+      def run(mode)
         files = Dir.glob("themes/**/*.html")
         files.each do |file|
           basename = File.basename(file, ".html")
