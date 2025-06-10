@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kinjouj/gress-core.git
-  revision: a2f16d2535fced4d73565caedcb07a94c1f11f08
+  revision: 3be229e2ef7b83aefac21d8e0d95b9070db4c346
   specs:
     gress (1.0.0)
       erubis (= 2.7.0)
@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/kinjouj/gress-markdown.git
-  revision: 4e3cceb5b8fb991b75843dec0dad345fb76ff532
+  revision: 40e5fc9b552f711983bb8ce4783f98f39d446201
   specs:
     gress-markdown (0.0.1)
 

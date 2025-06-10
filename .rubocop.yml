@@ -1,0 +1,45 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  Exclude:
+    - 'spec/**/*'
+    - '*.gemspec'
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'Guardfile'
+    - '.simplecov'
+  NewCops: enable
+  SuggestExtensions: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Layout/SpaceInsideBlockBraces:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 100
