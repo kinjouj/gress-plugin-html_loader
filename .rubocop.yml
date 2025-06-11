@@ -43,3 +43,6 @@ Naming/AccessorMethodName:
 
 Layout/LineLength:
   Max: 100
+
+Bundler/OrderedGems:
+  Enabled: false
