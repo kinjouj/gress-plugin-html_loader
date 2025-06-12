@@ -1,4 +1,3 @@
-require "gress"
 require "gress/plugin/html_loader"
 
 describe Gress::Plugin::HtmlLoader do

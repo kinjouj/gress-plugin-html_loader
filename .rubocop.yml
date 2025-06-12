@@ -3,9 +3,6 @@ AllCops:
   Exclude:
     - 'spec/**/*'
     - '*.gemspec'
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'Guardfile'
     - '.simplecov'
   NewCops: enable
   SuggestExtensions: false

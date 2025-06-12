@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kinjouj/gress-core.git
-  revision: edbc47b078dcec9b8074502bfa34254d67be89e9
+  revision: d6dbbd9910eac974a11c0bc7782d1b3a82b133a9
   specs:
     gress (1.0.0)
       erubis (= 2.7.0)
