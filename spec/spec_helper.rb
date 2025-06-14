@@ -2,7 +2,6 @@ require "bundler/setup"
 Bundler.require(:default, :test)
 
 require "simplecov"
-require "gress"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

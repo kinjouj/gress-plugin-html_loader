@@ -10,6 +10,6 @@ describe Gress::Plugin::HtmlLoader do
     params = Gress::Context.params
     expect(params).not_to be_nil
     expect(params).to include(:html_test)
-    expect(params[:html_test]).to match(/^test/)
+    expect(params[:html_test]).to start_with("test")
   end
 end
